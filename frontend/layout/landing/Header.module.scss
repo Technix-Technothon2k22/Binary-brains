@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+
+    button{
+        margin-left: 20px;
+        background-color: #7B68EE;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: transparent;
+    }
+    h1 {
+            background: linear-gradient(132.33deg, #d24074 -0.67%, #5687ED 102.54%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: linear-gradient(132.33deg, #d24074 -0.67%, #5687ED 102.54%);
+            font-size: 40px;
+        }
+        border-bottom: 1px solid grey;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+
+

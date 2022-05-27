@@ -1,0 +1,91 @@
+.main{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+}
+.text{
+    width: 70%;
+    h1{
+        font-size: 60px;
+        width: 50%;
+        margin-bottom: 70px;
+        
+    }
+    
+    p{
+        color: #7C828D;
+        font-weight: 600;
+        align-items: center;
+        
+    }
+
+}
+
+.feat{
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #7B68EE;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+
+.inputBox{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+    input{
+        border: 1px solid grey;
+        padding: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 80%;
+    }
+}
+
+
+
+.google{
+    background-color: white;
+    border: 1px solid rgb(188, 188, 188);
+    padding-right:5px ;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.submit{
+    // background-color: ;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    p{
+        margin: 5px;
+    }
+}
+
+.signBtn{
+    background-color: #7B68EE;
+}
