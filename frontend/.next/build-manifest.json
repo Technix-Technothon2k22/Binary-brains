@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/Document": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Document.js"
-    ],
     "/Document/New": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
