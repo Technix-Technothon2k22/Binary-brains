@@ -1,0 +1,79 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/Document";
+exports.ids = ["pages/Document"];
+exports.modules = {
+
+/***/ "./styles/pages/Document/Home.module.scss":
+/*!************************************************!*\
+  !*** ./styles/pages/Document/Home.module.scss ***!
+  \************************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"DocsIndex\": \"Home_DocsIndex__gyINN\",\n\t\"DocsIndexTop\": \"Home_DocsIndexTop__WPUoy\",\n\t\"Card\": \"Home_Card__wUrvf\",\n\t\"CardCenter\": \"Home_CardCenter__vthST\",\n\t\"DocsIndexBottom\": \"Home_DocsIndexBottom__BoIyO\",\n\t\"DocsIndexBottomCard\": \"Home_DocsIndexBottomCard__mx0J7\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zdHlsZXMvcGFnZXMvRG9jdW1lbnQvSG9tZS5tb2R1bGUuc2Nzcy5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mcm9udGVuZC8uL3N0eWxlcy9wYWdlcy9Eb2N1bWVudC9Ib21lLm1vZHVsZS5zY3NzP2Y1MjAiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwiRG9jc0luZGV4XCI6IFwiSG9tZV9Eb2NzSW5kZXhfX2d5SU5OXCIsXG5cdFwiRG9jc0luZGV4VG9wXCI6IFwiSG9tZV9Eb2NzSW5kZXhUb3BfX1dQVW95XCIsXG5cdFwiQ2FyZFwiOiBcIkhvbWVfQ2FyZF9fd1VydmZcIixcblx0XCJDYXJkQ2VudGVyXCI6IFwiSG9tZV9DYXJkQ2VudGVyX192dGhTVFwiLFxuXHRcIkRvY3NJbmRleEJvdHRvbVwiOiBcIkhvbWVfRG9jc0luZGV4Qm90dG9tX19Cb0l5T1wiLFxuXHRcIkRvY3NJbmRleEJvdHRvbUNhcmRcIjogXCJIb21lX0RvY3NJbmRleEJvdHRvbUNhcmRfX214MEo3XCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./styles/pages/Document/Home.module.scss\n");
+
+/***/ }),
+
+/***/ "./pages/Document/index.tsx":
+/*!**********************************!*\
+  !*** ./pages/Document/index.tsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ DocsIndex)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/pages/Document/Home.module.scss */ \"./styles/pages/Document/Home.module.scss\");\n/* harmony import */ var _styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nfunction DocsIndex() {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n        className: (_styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3___default().DocsIndex),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3___default().DocsIndexTop),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3___default().Card),\n                        onClick: ()=>router.push(\"/Document/New\")\n                        ,\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: (_styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3___default().CardCenter),\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                    children: \"+\"\n                                }, void 0, false, {\n                                    fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                                    lineNumber: 15,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                    children: \"Click to create new docs\"\n                                }, void 0, false, {\n                                    fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                                    lineNumber: 16,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                            lineNumber: 14,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                        lineNumber: 10,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3___default().Card),\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: (_styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3___default().CardCenter),\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                    children: \"+\"\n                                }, void 0, false, {\n                                    fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                                    lineNumber: 21,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                    children: \"drop docs new docs\"\n                                }, void 0, false, {\n                                    fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                                    lineNumber: 22,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                            lineNumber: 20,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3___default().DocsIndexBottom),\n                children: new Array(10).fill(\"\").map((m, i)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_styles_pages_Document_Home_module_scss__WEBPACK_IMPORTED_MODULE_3___default().DocsIndexBottomCard),\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                children: \"lol\"\n                            }, void 0, false, {\n                                fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                                lineNumber: 29,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                children: \"created at\"\n                            }, void 0, false, {\n                                fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                                lineNumber: 30,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, i, true, {\n                        fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                        lineNumber: 28,\n                        columnNumber: 11\n                    }, this)\n                )\n            }, void 0, false, {\n                fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n                lineNumber: 26,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/siddhesh/Desktop/Binary-brains/frontend/pages/Document/index.tsx\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9Eb2N1bWVudC9pbmRleC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUE7QUFBMEI7QUFDd0M7QUFDMUI7QUFFekIsU0FBU0csU0FBUyxHQUFHO0lBQ2xDLE1BQU1DLE1BQU0sR0FBR0Ysc0RBQVMsRUFBRTtJQUMxQixxQkFDRSw4REFBQ0csTUFBSTtRQUFDQyxTQUFTLEVBQUVMLDBGQUFnQjs7MEJBQy9CLDhEQUFDTSxLQUFHO2dCQUFDRCxTQUFTLEVBQUVMLDZGQUFtQjs7a0NBQ2pDLDhEQUFDTSxLQUFHO3dCQUNGRCxTQUFTLEVBQUVMLHFGQUFXO3dCQUN0QlMsT0FBTyxFQUFFLElBQU1OLE1BQU0sQ0FBQ08sSUFBSSxDQUFDLGVBQWUsQ0FBQzt3QkFBQTtrQ0FFM0MsNEVBQUNKLEtBQUc7NEJBQUNELFNBQVMsRUFBRUwsMkZBQWlCOzs4Q0FDL0IsOERBQUNZLE1BQUk7OENBQUMsR0FBQzs7Ozs7d0NBQU87OENBQ2QsOERBQUNBLE1BQUk7OENBQUMsMEJBQXdCOzs7Ozt3Q0FBTzs7Ozs7O2dDQUNqQzs7Ozs7NEJBQ0Y7a0NBQ04sOERBQUNOLEtBQUc7d0JBQUNELFNBQVMsRUFBRUwscUZBQVc7a0NBQ3pCLDRFQUFDTSxLQUFHOzRCQUFDRCxTQUFTLEVBQUVMLDJGQUFpQjs7OENBQy9CLDhEQUFDWSxNQUFJOzhDQUFDLEdBQUM7Ozs7O3dDQUFPOzhDQUNkLDhEQUFDQSxNQUFJOzhDQUFDLG9CQUFrQjs7Ozs7d0NBQU87Ozs7OztnQ0FDM0I7Ozs7OzRCQUNGOzs7Ozs7b0JBQ0Y7MEJBQ04sOERBQUNOLEtBQUc7Z0JBQUNELFNBQVMsRUFBRUwsZ0dBQXNCOzBCQUNuQyxJQUFJYyxLQUFLLENBQUMsRUFBRSxDQUFDLENBQUNDLElBQUksQ0FBQyxFQUFFLENBQUMsQ0FBQ0MsR0FBRyxDQUFDLENBQUNDLENBQUMsRUFBRUMsQ0FBQyxpQkFDL0IsOERBQUNaLEtBQUc7d0JBQUNELFNBQVMsRUFBRUwsb0dBQTBCOzswQ0FDeEMsOERBQUNZLE1BQUk7MENBQUMsS0FBRzs7Ozs7b0NBQU87MENBQ2hCLDhEQUFDQSxNQUFJOzBDQUFDLFlBQVU7Ozs7O29DQUFPOzt1QkFGd0JNLENBQUM7Ozs7NEJBRzVDO2dCQUNQLENBQUM7Ozs7O29CQUNFOzs7Ozs7WUFDRCxDQUNQO0NBQ0giLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mcm9udGVuZC8uL3BhZ2VzL0RvY3VtZW50L2luZGV4LnRzeD9kNzI5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBzdHlsZXMgZnJvbSBcIi4uLy4uL3N0eWxlcy9wYWdlcy9Eb2N1bWVudC9Ib21lLm1vZHVsZS5zY3NzXCI7XG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9yb3V0ZXJcIjtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRG9jc0luZGV4KCkge1xuICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTtcbiAgcmV0dXJuIChcbiAgICA8bWFpbiBjbGFzc05hbWU9e3N0eWxlcy5Eb2NzSW5kZXh9PlxuICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5Eb2NzSW5kZXhUb3B9PlxuICAgICAgICA8ZGl2XG4gICAgICAgICAgY2xhc3NOYW1lPXtzdHlsZXMuQ2FyZH1cbiAgICAgICAgICBvbkNsaWNrPXsoKSA9PiByb3V0ZXIucHVzaChcIi9Eb2N1bWVudC9OZXdcIil9XG4gICAgICAgID5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLkNhcmRDZW50ZXJ9PlxuICAgICAgICAgICAgPHNwYW4+Kzwvc3Bhbj5cbiAgICAgICAgICAgIDxzcGFuPkNsaWNrIHRvIGNyZWF0ZSBuZXcgZG9jczwvc3Bhbj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuQ2FyZH0+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5DYXJkQ2VudGVyfT5cbiAgICAgICAgICAgIDxzcGFuPis8L3NwYW4+XG4gICAgICAgICAgICA8c3Bhbj5kcm9wIGRvY3MgbmV3IGRvY3M8L3NwYW4+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLkRvY3NJbmRleEJvdHRvbX0+XG4gICAgICAgIHtuZXcgQXJyYXkoMTApLmZpbGwoXCJcIikubWFwKChtLCBpKSA9PiAoXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5Eb2NzSW5kZXhCb3R0b21DYXJkfSBrZXk9e2l9PlxuICAgICAgICAgICAgPHNwYW4+bG9sPC9zcGFuPlxuICAgICAgICAgICAgPHNwYW4+Y3JlYXRlZCBhdDwvc3Bhbj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgKSl9XG4gICAgICA8L2Rpdj5cbiAgICA8L21haW4+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiUmVhY3QiLCJzdHlsZXMiLCJ1c2VSb3V0ZXIiLCJEb2NzSW5kZXgiLCJyb3V0ZXIiLCJtYWluIiwiY2xhc3NOYW1lIiwiZGl2IiwiRG9jc0luZGV4VG9wIiwiQ2FyZCIsIm9uQ2xpY2siLCJwdXNoIiwiQ2FyZENlbnRlciIsInNwYW4iLCJEb2NzSW5kZXhCb3R0b20iLCJBcnJheSIsImZpbGwiLCJtYXAiLCJtIiwiaSIsIkRvY3NJbmRleEJvdHRvbUNhcmQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/Document/index.tsx\n");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/router");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/Document/index.tsx"));
+module.exports = __webpack_exports__;
+
+})();
