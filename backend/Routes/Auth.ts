@@ -9,13 +9,13 @@ router.post("/signup", UserRegister);
 
 router.get(
   "/google",
-  passport.authenticate("google", { scope: ["email"] }),
+  passport.authenticate("google", { scope: ["email", "profile"] }),
   (req: Request, res: Response) => {
     res.send("google auth");
   }
 );
-router.get("/login/success", async (req: any, res: Response) => {
-  console.log(req, "final reqqq");
+router.get("/login/success", async (req: any, res: any) => {
+  console.log(req.session.passport, "final reqqq");
   try {
     return res.json(req.user);
   } catch (error) {
@@ -25,7 +25,7 @@ router.get("/login/success", async (req: any, res: Response) => {
 
 router.get("/login/userInfo", async (req: any, res: Response) => {
   try {
-    console.log(req.session, " send this asap");
+    console.log(req.user, " send this asap");
     return res.status(200).json(req.session);
   } catch (error) {
     console.log(error);
@@ -41,19 +41,12 @@ router.get(
   "/google/callback",
   passport.authenticate("google", {
     failureRedirect: "/login/failure",
-    successRedirect: "/login/success",
-  })
-  // function (req, res) {
-  //   if (req.user) {
-  //     // res.redirect("http://localhost:3000/");
-  //     req.session = req.user;
-  //     return res.status(200).json({
-  //       success: true,
-  //       message: "successfull",
-  //       user: req.user,
-  //       cookies: req.cookies,
-  //     });
-  //   }
-  // }
+    successRedirect: "https://polbol.in/#/",
+  }),
+  (req: any, res: any) => {
+    console.log(req.user);
+
+    return res.json(req.user);
+  }
 );
 module.exports = router;
