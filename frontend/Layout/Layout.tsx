@@ -10,9 +10,13 @@ type LayoutType = {
 const Layout: React.FC<LayoutType> = ({ children }) => {
   const router = useRouter();
   if (router.pathname === "/") {
-    return <HLayout>{children}</HLayout>;
+    return <Llayout>{children}</Llayout>;
   }
-  return <Llayout>{children}</Llayout>;
+  if (router.pathname.startsWith("/view") ) {
+    return <>{children}</>;
+  }
+  // return <HLayout>{children}</HLayout>;
+  return null;
 };
 
 export default memo(Layout);

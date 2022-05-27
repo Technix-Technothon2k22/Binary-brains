@@ -1,0 +1,74 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    iframe{
+        height: 90vh;
+        width: 60vw;
+
+    }
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    h1{
+        font-size: 24px;
+    }
+}
+
+.modal{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.input{
+    border:3px solid rgb(14, 111, 196);
+    border-radius: 5px;
+    :focus{
+        border:1px solid rgb(14, 111, 196);
+    }
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.MainLink {
+    background-color: rgb(14, 111, 196);
+    margin-left: 30px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.Home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
